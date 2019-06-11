@@ -1,0 +1,21 @@
+{
+  "name": "redbot",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "fs": "0.0.1-security",
+    "ms": "^2.1.1"
+  },
+  "version": "1.0.1",
+  "description": "Cool",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "160"
+  ],
+  "author": "Me",
+  "license": "ISC"
+}
