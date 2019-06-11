@@ -3,7 +3,7 @@ const botconfig = require("./botconfig.json");
 const prefix = botconfig.prefix;
 const fs = require("fs");
 const ms = require("ms");
-
+const token = process.env.arcadia
 
 const bot = new Discord.Client({disableEverone: true});
 
@@ -317,4 +317,4 @@ if(message.content === `...`) {
 //Tokens
 
 });
-bot.login('NDUyOTIzMzk1MTc3MzE2MzUy.DvGKeg.eM2jLEGnBZdqMbZTtthaRfDLn1U');
+bot.login(process.env.token);
