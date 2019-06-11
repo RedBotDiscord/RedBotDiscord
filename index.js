@@ -25,9 +25,9 @@ bot.on("message", async message => {
 
 
 
-//.bot
+//.help
 
-  if(command === `${prefix}bot`) {
+  if(command === `${prefix}help`) {
 
     let botAvatar = bot.user.displayAvatarURL;
     let embed = new Discord.RichEmbed()
