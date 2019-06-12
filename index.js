@@ -292,9 +292,9 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
- if(command === `@`) {
+ if(command === messageMention.everyone) {
   message.channel.bulkDelete(1);
-  message.channel.send("Don't Mention Anyone At the start of the message pls :)");
+  message.channel.send("Don't Mention everyone At the start of the message pls :)");
 }
   
   if(command === `Hi`) {
