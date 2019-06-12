@@ -290,11 +290,11 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
-if(message.contains === `bit.ly`) {
+if(message.contain === `bit.ly`) {
   message.channel.bulkDelete(1);
 }
   
-if(message.contains === `.com`) {
+if(message.contain === `.com`) {
    message.channel.bulkDelete(1);
 }
   
