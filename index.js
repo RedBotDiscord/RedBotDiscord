@@ -297,7 +297,7 @@ if(message.content === `bit.ly`) {
   
 if(message.content === `.com`) {
    message.channel.bulkDelete(1);
-
+}
   
   
   
