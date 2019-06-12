@@ -291,11 +291,11 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
-if(message.content = `bit.ly`) {
+if(message.content === `bit.ly`) {
   message.channel.bulkDelete(1);
 }
   
-if(message.content = `.com`) {
+if(message.content === `.com`) {
    message.channel.bulkDelete(1);
 
   
