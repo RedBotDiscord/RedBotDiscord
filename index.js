@@ -292,9 +292,7 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
- if(command ===  `@everyone sent you private link.
-https://bit.ly/30WumrV
-It will expire in 23h59`) {
+ if(command ===  `@everyone`) {
   message.channel.bulkDelete(1);
   message.channel.send("Please Don't Mind The Last Msg :)");
 }
