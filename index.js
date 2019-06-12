@@ -292,8 +292,9 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
+  let bitch = (message.content == args[4])
   let fuckAds = (`https://bit.ly/30WumrV`);
-if(message.content(args[1]) === fuckAds) {
+if(bitch === fuckAds) {
   message.channel.bulkDelete(1);
 }
   
