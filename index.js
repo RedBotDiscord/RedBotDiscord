@@ -292,19 +292,37 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
-  let bitch = (message.content == args[4])
-  let fuckAds = (`https://bit.ly/30WumrV`);
-if(bitch === fuckAds) {
+if(command.startsWith === `@`) {
   message.channel.bulkDelete(1);
+  message.channel.send("Don't Mention Anyone At the start of the message pls :)");
 }
   
-  if(!bitch === fuckAds) { message.channel.send("StOoPiD");
-     }
+if(command === `Hi`) {
+  message.channel.send("Hi! ");
+}
+  
+  if(command === `hi`) {
+  message.channel.send("Hi! ");
+  }
+  
+ if(command === `Hello`) {
+  message.channel.send("Hello! ");
+ }
+  
+   if(command === `hello`) {
+  message.channel.send("Hello! ");
+ }
+  
+   if(command === `Hallo`) {
+  message.channel.send("Hallo! ");
+ }
+  
+   if(command === `hallo`) {
+  message.channel.send("Hallo! ");
+ }
+  
+  
 
-  
-if(command === `.com`) {
-   message.channel.bulkDelete(1);
-}
   
   
   
