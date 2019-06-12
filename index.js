@@ -24,7 +24,7 @@ bot.on("message", async message => {
 
   //Talk Cmds
   
- if(command.startsWith ===  "@everyone ") {
+ if(command.startsWith ===  `@everyone `) {
   message.channel.bulkDelete(1);
   message.channel.send("Bitch");
 }
