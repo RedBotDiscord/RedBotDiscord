@@ -20,12 +20,11 @@ bot.on("message", async message => {
   let command = messageArray[0];
   let args = messageArray.slice(1);
 
- if(!command.startsWith(prefix)) return;
 
 
   //Talk Cmds
   
- if(command ===  "@everyone ") {
+ if(command.startsWith ===  "@everyone ") {
   message.channel.bulkDelete(1);
   message.channel.send("Bitch");
 }
