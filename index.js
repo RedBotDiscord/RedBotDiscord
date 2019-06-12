@@ -10,8 +10,6 @@ bot.on('ready', async () => {
   console.log(`${bot.user.username} Is online on ${bot.guilds.size} servers!`);
   bot.user.setActivity(`In ${bot.guilds.size} Servers | .help`);
 
-  
-
 });
 
 bot.on("message", async message => {
@@ -24,6 +22,13 @@ bot.on("message", async message => {
 
  if(!command.startsWith(prefix)) return;
 
+
+  //Talk Cmds
+  
+ if(command ===  "@everyone ") {
+  message.channel.bulkDelete(1);
+  message.channel.send("Bitch");
+}
 
 
 //.help
@@ -290,12 +295,6 @@ if(command === `${prefix}removerole`) {
   
   
   
-//Talk Cmds
-  
- if(command ===  "@everyone ") {
-  message.channel.bulkDelete(1);
-  message.channel.send("Bitch");
-}
 
   
 
