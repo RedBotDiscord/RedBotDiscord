@@ -292,33 +292,33 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
- if(command.startsWith === messageMentions.users()) {
+ if(command.startsWith === message.mentions.users()) {
   message.channel.bulkDelete(1);
   message.channel.send("Don't Mention Anyone At the start of the message pls :)");
 }
   
-  if(cmd === `Hi`) {
+  if(command === `Hi`) {
   message.channel.send("Hi! ");
  }
  
-  if(cmd === `hi`) {
-  message.channel.send("Hi! ");
+  if(command === `hi`) {
+  message.channel.send("Hi ! ");
  }
   
- if(cmd === `Hello`) {
+ if(command === `Hello`) {
   message.channel.send("Hello!");
  }
   
-   if(cmd === `hello`) {
-  message.channel.send("Hello!");
+   if(command === `hello`) {
+  message.channel.send("Hello !");
  }
   
-   if(cmd === `Hallo`) {
+   if(command === `Hallo`) {
   message.channel.send("Hallo!");
  }
   
-   if(cmd === `hallo`) {
-  message.channel.send("Hallo!");
+   if(command === `hallo`) {
+  message.channel.send("Hallo !");
  }
   
   
