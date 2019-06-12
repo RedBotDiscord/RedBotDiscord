@@ -55,7 +55,15 @@ bot.on("message", async message => {
 }
 
 
-
+//.say
+  
+  if(command === `${prefix}say`) {
+    if(!message.member.hasPermission("MANAGE_MESSAGES")) return await message.channel.send("You can't do that");
+    
+    message.channel.send(args[0]);
+    
+    
+  }
 
 
 //.bot
