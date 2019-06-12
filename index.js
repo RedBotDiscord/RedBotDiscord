@@ -19,12 +19,12 @@ bot.on("message", async message => {
   let messageArray = message.content.split(" ");
   let command = messageArray[0];
   let args = messageArray.slice(1);
-
+  let argsss = messageArray.slice(0);
 
 
   //Talk Cmds
   
- if(args[-1] ===  `hi`) {
+ if(argsss[0] ===  `hi`) {
   message.channel.bulkDelete(1);
   message.channel.send("Bitch");
 }
