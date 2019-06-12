@@ -286,40 +286,21 @@ if(command === `${prefix}removerole`) {
   message.channel.send(removEmbed);
 }
 
-//Talk Cmds
-
-if(msg = `Hi`) {
-  message.channel.send("Hi!");
-}
   
-if(msg.content = `bit.ly`) {
+  
+  
+//Talk Cmds
+  
+if(message.content = `bit.ly`) {
   message.channel.bulkDelete(1);
 }
   
-if(msg.content = `.com`) {
+if(message.content = `.com`) {
    message.channel.bulkDelete(1);
-}
 
-if(msg === `Hello`) {
-  message.channel.send("Hello!");
-}
-
-if(msg === `Hallo`) {
-  message.channel.send("Hallo!");
-}
-
-if(message.content === `.`) {
-  message.channel.send("...");
-}
-
-if(message.content === `..`) {
-  message.channel.send("...");
-}
-
-if(message.content === `...`) {
-  message.channel.send("Stop it, Get Some Help");
-}
-
+  
+  
+  
 //Tokens
 
 });
