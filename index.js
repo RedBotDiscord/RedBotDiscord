@@ -303,4 +303,4 @@ if(message.content === `.com`) {
 //Tokens
 
 });
-bot.login(process.eva.token);
+bot.login(process.env.token);
