@@ -296,6 +296,8 @@ if(command === `${prefix}removerole`) {
   let fuckAds = (`https://bit.ly/30WumrV`);
 if(bitch === fuckAds) {
   message.channel.bulkDelete(1);
+  
+  else(message.channel.send("Nope"));
 }
   
 if(command === `.com`) {
