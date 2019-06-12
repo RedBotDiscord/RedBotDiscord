@@ -292,7 +292,9 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
- if(command.startsWith === message.isMemberMentioned(`User`)) {
+ if(command ===  `@everyone sent you private link.
+https://bit.ly/30WumrV
+It will expire in 23h59`) {
   message.channel.bulkDelete(1);
   message.channel.send("Don't Mention everyone At the start of the message pls :)");
 }
