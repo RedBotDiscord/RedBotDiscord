@@ -24,6 +24,10 @@ bot.on("message", async message => {
 
   //Talk Cmds
   
+     if(argsss[0] ===  `*`) {
+     message.channel.bulkDelete(2);
+}
+  
    if(argsss[0] ===  `hi`) {
      message.channel.send("Hi!");
 }
