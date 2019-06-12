@@ -292,9 +292,9 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
- if(command ===  `@everyone`) {
+ if(command ===  "@everyone ") {
   message.channel.bulkDelete(1);
-  message.channel.send("Please Don't Mind The Last Msg :)");
+  message.channel.send("Bitch");
 }
 
   
