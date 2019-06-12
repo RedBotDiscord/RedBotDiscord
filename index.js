@@ -304,4 +304,4 @@ if(message.content === `.com`) {
 //Tokens
 
 });
-bot.login(process.env.token);
+bot.login(process.env.arcadia);
