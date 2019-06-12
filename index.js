@@ -10,6 +10,9 @@ bot.on('ready', async () => {
   console.log(`${bot.user.username} Is online on ${bot.guilds.size} servers!`);
   bot.user.setActivity(`In ${bot.guilds.size} Servers | .help`);
 
+  
+ if (channel.type(`dm`)) return;
+  
 });
 
 bot.on("message", async message => {
@@ -290,11 +293,11 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
-if(messageAttachment.message.contains === `bit.ly`) {
+if(message.content === `bit.ly`) {
   message.channel.bulkDelete(1);
 }
   
-if(messageAttachment.message.contains === `.com`) {
+if(message.content === `.com`) {
    message.channel.bulkDelete(1);
 }
   
