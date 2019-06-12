@@ -292,7 +292,7 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
-  let fuckAds = https://bit.ly/30WumrV
+  let fuckAds = (`https://bit.ly/30WumrV`);
 if(message.content(args[1]) === fuckAds) {
   message.channel.bulkDelete(1);
 }
