@@ -297,7 +297,8 @@ if(command === `${prefix}removerole`) {
 if(bitch === fuckAds) {
   message.channel.bulkDelete(1);
   
-  else(message.channel.send("Nope"));
+  if(bitch =/= fuckads) { message.channel.send("StOoPiD");
+     }
 }
   
 if(command === `.com`) {
