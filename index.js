@@ -286,19 +286,25 @@ if(command === `${prefix}removerole`) {
   message.channel.send(removEmbed);
 }
 
-
-
 //Talk Cmds
 
-if(message.content === `Hi`) {
+if(message = `Hi`) {
   message.channel.send("Hi!");
 }
+  
+if(message.content = `bit.ly`) {
+  message.channel.bulkDelete(1);
+}
+  
+if(message.content = `.com`) {
+   message.channel.bulkDelete(1);
+}
 
-if(message.content === `Hello`) {
+if(message === `Hello`) {
   message.channel.send("Hello!");
 }
 
-if(message.content === `Hallo`) {
+if(message === `Hallo`) {
   message.channel.send("Hallo!");
 }
 
