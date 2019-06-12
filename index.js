@@ -303,4 +303,4 @@ if(message.content === `.com`) {
 //Tokens
 
 });
-bot.login(NDUyOTIzMzk1MTc3MzE2MzUy.XQDbZQ.e-kjsgizijKqCCX0Mj_PW526IfI);
+bot.login(process.eva.arcadia);
