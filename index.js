@@ -11,7 +11,7 @@ bot.on('ready', async () => {
   bot.user.setActivity(`In ${bot.guilds.size} Servers | .help`);
 
   
- if (channel.type(`dm`)) return;
+ if (message.channel.type(`dm`)) return;
   
 });
 
