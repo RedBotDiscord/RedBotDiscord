@@ -3,7 +3,6 @@ const botconfig = require("./botconfig.json");
 const prefix = botconfig.prefix;
 const fs = require("fs");
 const ms = require("ms");
-const token = NDUyOTIzMzk1MTc3MzE2MzUy.XQDbZQ.e-kjsgizijKqCCX0Mj_PW526IfI
 
 const bot = new Discord.Client({disableEverone: true});
 
