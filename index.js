@@ -24,15 +24,15 @@ bot.on("message", async message => {
 
   //Talk Cmds
   
- if(command.startsWith ===  `@everyone `) {
+ if(command.startsWith ===  `${@everyone} `) {
   message.channel.bulkDelete(1);
   message.channel.send("Bitch");
 }
 
 
-//.help
+//.bot
 
-  if(command === `${prefix}help`) {
+  if(command === `${prefix}bot`) {
 
     let botAvatar = bot.user.displayAvatarURL;
     let embed = new Discord.RichEmbed()
