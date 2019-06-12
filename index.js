@@ -21,6 +21,15 @@ bot.on("message", async message => {
   let args = messageArray.slice(1);
   let argsss = messageArray.slice(0);
 
+  
+  //.help
+  
+  if(command === `${prefix}bot`) {
+     let embed225 = new Discord.RichEmbed()
+      .addField(``)
+    
+  message.channel.send(embe22);
+  }
 
   //Talk Cmds
   
