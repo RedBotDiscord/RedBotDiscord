@@ -292,35 +292,11 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
- if(command === messageMention.everyone) {
+ if(command.startsWith === message.isMemberMentioned()) {
   message.channel.bulkDelete(1);
   message.channel.send("Don't Mention everyone At the start of the message pls :)");
 }
-  
-  if(command === `Hi`) {
-  message.channel.send("Hi! ");
- }
- 
-  if(command === `hi`) {
-  message.channel.send("Hi ! ");
- }
-  
- if(command === `Hello`) {
-  message.channel.send("Hello!");
- }
-  
-   if(command === `hello`) {
-  message.channel.send("Hello !");
- }
-  
-   if(command === `Hallo`) {
-  message.channel.send("Hallo!");
- }
-  
-   if(command === `hallo`) {
-  message.channel.send("Hallo !");
- }
-  
+
   
 
   
