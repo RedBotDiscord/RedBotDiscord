@@ -24,7 +24,7 @@ bot.on("message", async message => {
 
   //Talk Cmds
   
- if(argsss[0] ===  `hi`) {
+ if(argsss[0] ===  `@everyone`) {
   message.channel.bulkDelete(1);
   message.channel.send("Bitch");
 }
