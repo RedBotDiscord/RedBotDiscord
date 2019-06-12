@@ -288,23 +288,23 @@ if(command === `${prefix}removerole`) {
 
 //Talk Cmds
 
-if(message = `Hi`) {
+if(msg = `Hi`) {
   message.channel.send("Hi!");
 }
   
-if(message.content = `bit.ly`) {
+if(msg.content = `bit.ly`) {
   message.channel.bulkDelete(1);
 }
   
-if(message.content = `.com`) {
+if(msg.content = `.com`) {
    message.channel.bulkDelete(1);
 }
 
-if(message === `Hello`) {
+if(msg === `Hello`) {
   message.channel.send("Hello!");
 }
 
-if(message === `Hallo`) {
+if(msg === `Hallo`) {
   message.channel.send("Hallo!");
 }
 
