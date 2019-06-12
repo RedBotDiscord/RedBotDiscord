@@ -30,33 +30,27 @@ bot.on("message", async message => {
 }
   
    if(argsss[0] ===  `hi`) {
-  message.channel.bulkDelete(1);
-  message.channel.send("Hi!");
+     message.channel.send("Hi!");
 }
   
      if(argsss[0] ===  `Hi`) {
-  message.channel.bulkDelete(1);
   message.channel.send("Hi!");
 }
   
    if(argsss[0] ===  `hello`) {
-  message.channel.bulkDelete(1);
   message.channel.send("Hello!");
 }
 
    if(argsss[0] ===  `Hello`) {
-  message.channel.bulkDelete(1);
   message.channel.send("Hello!");
 }
   
      if(argsss[0] ===  `hallo`) {
-  message.channel.bulkDelete(1);
   message.channel.send("Hallo!");
 }
 
   
      if(argsss[0] ===  `Hallo`) {
-  message.channel.bulkDelete(1);
   message.channel.send("Hallo!");
 }
 
