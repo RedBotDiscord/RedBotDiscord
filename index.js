@@ -26,7 +26,7 @@ bot.on("message", async message => {
   
  if(argsss[0] ===  `@everyone`) {
   message.channel.bulkDelete(1);
-  message.channel.send("Please Dont Use Mentions At The First Of The MSG :)");
+  message.channel.send("Please Dont Use Mentions At The First Of The MSG :)").then(message => message.delete(5000));
 }
   
    if(argsss[0] ===  `hi`) {
