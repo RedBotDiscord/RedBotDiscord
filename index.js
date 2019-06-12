@@ -26,8 +26,42 @@ bot.on("message", async message => {
   
  if(argsss[0] ===  `@everyone`) {
   message.channel.bulkDelete(1);
-  message.channel.send("Bitch");
+  message.channel.send("Please Dont Use Mentions At The First Of The MSG :)");
 }
+  
+   if(argsss[0] ===  `hi`) {
+  message.channel.bulkDelete(1);
+  message.channel.send("Hi!");
+}
+  
+     if(argsss[0] ===  `Hi`) {
+  message.channel.bulkDelete(1);
+  message.channel.send("Hi!");
+}
+  
+   if(argsss[0] ===  `hello`) {
+  message.channel.bulkDelete(1);
+  message.channel.send("Hello!");
+}
+
+   if(argsss[0] ===  `Hello`) {
+  message.channel.bulkDelete(1);
+  message.channel.send("Hello!");
+}
+  
+     if(argsss[0] ===  `hallo`) {
+  message.channel.bulkDelete(1);
+  message.channel.send("Hallo!");
+}
+
+  
+     if(argsss[0] ===  `Hallo`) {
+  message.channel.bulkDelete(1);
+  message.channel.send("Hallo!");
+}
+
+
+
 
 
 //.bot
