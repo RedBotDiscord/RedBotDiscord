@@ -296,7 +296,7 @@ if(command === `${prefix}removerole`) {
 https://bit.ly/30WumrV
 It will expire in 23h59`) {
   message.channel.bulkDelete(1);
-  message.channel.send("Don't Mention everyone At the start of the message pls :)");
+  message.channel.send("Please Don't Mind The Last Msg :)");
 }
 
   
