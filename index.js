@@ -11,8 +11,7 @@ bot.on('ready', async () => {
   bot.user.setActivity(`In ${bot.guilds.size} Servers | .help`);
 
   
- if (message.channel.type(`dm`)) return;
-  
+
 });
 
 bot.on("message", async message => {
@@ -293,7 +292,8 @@ if(command === `${prefix}removerole`) {
   
 //Talk Cmds
   
-if(command === `bit.ly`) {
+  let fuckAds = https://bit.ly/30WumrV
+if(message.content(args[1]) === fuckAds) {
   message.channel.bulkDelete(1);
 }
   
